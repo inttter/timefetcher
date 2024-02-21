@@ -1,5 +1,5 @@
 {
-  "name": "fetchtimer",
+  "name": "timefetcher",
   "description": "Displays how long it took to fetch from API's.",
   "version": "1.0.0",
   "type": "module",

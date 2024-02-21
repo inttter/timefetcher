@@ -1,22 +1,22 @@
-# ⏳ fetchtimer
+# ⏳ timefetcher
 
 Displays how long it took to fetch from API's.
 
 # Installation
 
 ```bash
-npm install fetchtimer
+npm install timefetcher
 ```
 
 ## Usage
 
 ```javascript
-import fetchtimer from 'fetchtimer'
+import timefetcher from 'timefetcher'
 
 async function fetchData() {
   try {
     const url = 'https://api.spacexdata.com/v4/launches/upcoming';
-    const data = await fetchtimer(url, 'milliseconds', '✨ The URL returned a result, nice!');
+    const data = await timefetcher(url, 'milliseconds', '✨ The URL returned a result, nice!');
   } catch (error) {
     console.error('Failed to fetch data:', error);
   }
@@ -29,7 +29,7 @@ fetchData();
 
 # API
 
-### `fetchtimer(url[, timeUnit[, successMessage]])`
+### `timefetcherr(url[, timeUnit[, successMessage]])`
 
 Measures fetch time from the specified URL.
 
