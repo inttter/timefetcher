@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export default async function measureFetchTime(url, timeUnit = 'milliseconds', successMessage = '') {
+export default async function timefetcher(url, timeUnit = 'milliseconds', successMessage = '') {
   const startTime = process.hrtime();
 
   try {
