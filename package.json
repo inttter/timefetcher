@@ -1,0 +1,27 @@
+{
+  "name": "fetchtimer",
+  "description": "Displays how long it took to fetch from API's.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fetch",
+    "api",
+    "request",
+    "timer",
+    "time"
+  ],
+  "author": "Inter",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "repository": "https://github.com/inttter/fetchtimer",
+  "funding": "https://github.com/sponsors/inttter",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
